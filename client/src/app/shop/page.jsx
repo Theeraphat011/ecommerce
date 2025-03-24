@@ -1,6 +1,6 @@
-const Shop = () => {
+const ShopPage = () => {
   return (
-    <div>Shop</div>
+    <div>ShopPage</div>
   )
 }
-export default Shop
+export default ShopPage
