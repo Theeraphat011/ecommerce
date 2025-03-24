@@ -1,8 +1,8 @@
-import Facebook from "../../../public/facebook.png";
-import Instagram from "../../../public/Instagram.png";
-import Twitter from "../../../public/Twitter.png";
-import Linkedin from "../../../public/Linkedin.png";
-import Arrow from "../../../public/Arrow.png";
+import Facebook from "../../image/facebook.png";
+import Instagram from "../../image/Instagram.png";
+import Twitter from "../../image/Twitter.png";
+import Linkedin from "../../image/Linkedin.png";
+import Arrow from "../../image/Arrow.png";
 
 const Title = () => {
    const Images = [Facebook, Instagram, Twitter, Linkedin];

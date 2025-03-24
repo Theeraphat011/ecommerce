@@ -1,10 +1,10 @@
-import Shop from "./pages/Shop"
+import AppRouter from "./routes/AppRouter"
 
 function App() {
 
   return (
     <>
-      <Shop/>
+      <AppRouter/>
     </>
   )
 }

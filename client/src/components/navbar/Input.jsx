@@ -1,7 +1,7 @@
-import Serach from "/search.png";
-import User from "/user.png";
-import Heart from "/heart.png";
-import Bag from "/bag.png";
+import Serach from "../../image/search.png";
+import User from "../../image/user.png";
+import Heart from "../../image/heart.png";
+import Bag from "../../image/bag.png";
 
 const Input = () => {
    return (

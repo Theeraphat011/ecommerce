@@ -1,13 +1,13 @@
 
 const Navigate = () => {
   const lists = [
-    { name: "HOME", path: "/shop" },
-    { name: "CATEGORIES", path: "/categories" },
+    { name: "HOME", path: "/" },
+    { name: "CATEGORIES", path: "/category" },
     { name: "MEN'S", path: "/mens" },
     { name: "WOMEN'S", path: "/womens" },
     { name: "PERFUME", path: "/perfume" },
     { name: "BLOG", path: "/blog" },
-    { name: "HOT OFFERS", path: "/hot-offers" },
+    { name: "HOT OFFERS", path: "/hotoffers" },
   ];
 
   return (
