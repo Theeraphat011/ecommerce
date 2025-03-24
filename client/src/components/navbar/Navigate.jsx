@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navigate = () => {
   const lists = [
-    { name: "HOME", path: "/" },
+    { name: "HOME", path: "/shop" },
     { name: "CATEGORIES", path: "/categories" },
     { name: "MEN'S", path: "/mens" },
     { name: "WOMEN'S", path: "/womens" },
