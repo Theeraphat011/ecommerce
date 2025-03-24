@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const Navigate = () => {
   const lists = [
@@ -14,9 +15,9 @@ const Navigate = () => {
     <div className="container mx-auto max-w-[960px]">
       <div className="flex justify-between items-center py-3 px-5 text-sm">
         {lists.map((item, index) => (
-          <a key={index} href={item.path}>
+          <Link key={index} href={item.path}>
             <p>{item.name}</p>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

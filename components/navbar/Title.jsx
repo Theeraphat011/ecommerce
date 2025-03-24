@@ -1,8 +1,9 @@
-import Facebook from "../../../public/facebook.png";
-import Instagram from "../../../public/Instagram.png";
-import Twitter from "../../../public/Twitter.png";
-import Linkedin from "../../../public/Linkedin.png";
-import Arrow from "../../../public/Arrow.png";
+import Image from "next/image";
+import Facebook from "/public/img/Navbar/facebook.png";
+import Instagram from "/public/img/Navbar/instagram.png";
+import Twitter from "/public/img/Navbar/twitter.png";
+import Linkedin from "/public/img/Navbar/linkedin.png";
+import Arrow from "/public/img/Navbar/arrow.png";
 
 const Title = () => {
    const Images = [Facebook, Instagram, Twitter, Linkedin];
@@ -14,13 +15,13 @@ const Title = () => {
                <div className="flex gap-2">
                   {Images.map((img, index) => (
                      <div key={index} className="bg-gray-200 p-[4px] rounded-sm">
-                        <img
+                        <Image
                            src={img}
                            width={18}
                            height={18}
                            alt="img-title"
                            className="opacity-60 p-[2px] cursor-pointer"
-                        />
+                        />{" "}
                      </div>
                   ))}
                </div>
@@ -31,7 +32,7 @@ const Title = () => {
                      <div key={idex}>
                         <div className="flex gap-1 items-center cursor-pointer">
                            {item}
-                           <img
+                           <Image
                               src={Arrow}
                               width={20}
                               height={20}

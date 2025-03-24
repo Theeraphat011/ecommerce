@@ -1,7 +1,8 @@
-import Serach from "/search.png";
-import User from "/user.png";
-import Heart from "/heart.png";
-import Bag from "/bag.png";
+import Image from "next/image";
+import Serach from "/public/img/Navbar/search.png";
+import User from "/public/img/Navbar/user.png";
+import Heart from "/public/img/Navbar/heart.png";
+import Bag from "/public/img/Navbar/bag.png";
 
 const Input = () => {
    return (
@@ -16,7 +17,7 @@ const Input = () => {
                      placeholder="Enter your product name..."
                      className="p-2 focus:outline-none text-sm w-full placeholder:text-xs"
                   />
-                  <img
+                  <Image
                      src={Serach}
                      width={20}
                      height={20}
@@ -27,7 +28,7 @@ const Input = () => {
 
                <div className="flex gap-6 items-center text-gray-400">
                   <div>
-                     <img
+                     <Image
                         src={User}
                         width={30}
                         height={30}
@@ -36,7 +37,7 @@ const Input = () => {
                      />
                   </div>
                   <div className="relative">
-                     <img
+                     <Image
                         src={Heart}
                         width={30}
                         height={30}
@@ -48,7 +49,7 @@ const Input = () => {
                      </span>
                   </div>
                   <div className="relative">
-                     <img
+                     <Image
                         src={Bag}
                         width={35}
                         height={35}
