@@ -1,4 +1,3 @@
-import picture from "../../image/arrow.png";
 import Rating from "../../image/rating.png";
 import bestSeller from "./bestseller";
 
@@ -9,8 +8,11 @@ const BestSeller = () => {
             <h1 className="text-2xl font-bold mb-6">BEST SELLER</h1>
 
             {bestSeller.map((item, index) => (
-               <div key={index} className="flex gap-4 p-3 rounded-md border-1 border-gray-300 text-gray-600 mt-4">
-                  <img src={picture} width={100} height={100} alt="" />
+               <div
+                  key={index}
+                  className="flex gap-4 p-3 rounded-md border-1 border-gray-300 text-gray-600 mt-4"
+               >
+                  <img src={item.picture} width={100} height={100} alt="" />
                   <div className="grid gap-2 text-xl">
                      <h1>{item.name}</h1>
                      <img src={Rating} width={100} height={100} alt="rating" />

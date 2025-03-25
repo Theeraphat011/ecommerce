@@ -8,7 +8,7 @@ const Input = () => {
       <>
          <div className="container mx-auto max-w-[1380px]">
             <div className="flex justify-between items-center py-6 px-5">
-               <h1 className="font-bold text-3xl text-gray-800">Iron</h1>
+               <h1 className="font-bold text-5xl text-gray-800">Iron</h1>
 
                <div className="flex gap-2 items-center border-1 rounded-lg border-gray-300 w-2xl text-gray-800">
                   <input
